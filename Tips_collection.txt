@@ -1,0 +1,48 @@
+This is the collection file for the tips I searched from google.
+So, I can use it latter for different projects or sharing good resoures
+
+R - Plot - High Quality Output:
+https://blog.revolutionanalytics.com/2009/01/10-tips-for-making-your-r-graphics-look-their-best.html
+
+R - Plot - Margins:
+https://nicercode.github.io/guides/plotting/
+
+To reduce the white space in pdf file, use par(mar = c(....)) after pdf(file =)
+
+Econometrics - Most Harmless - R, python, stata, Julia
+https://github.com/vikjam/mostly-harmless-replication
+
+R - automated collection
+http://www.r-datacollection.com/authors.html
+
+Data-news
+https://fivethirtyeight.com
+
+R-twitter
+http://johnricco.github.io/2016/08/05/twitter-bot/
+
+Python-bigdata/Network
+https://chengjunwang.com
+
+R-Network
+http://elepatacchini.com/resource/
+
+Network
+http://barabasi.com
+http://networksciencebook.com
+http://www.cs.upc.edu/~csn/schedule.html
+
+R-basic
+http://r-statistics.co
+
+R-fitting power law
+https://rpubs.com/lgadar/power-law
+https://cran.r-project.org/web/packages/poweRlaw/vignettes/b_powerlaw_examples.pdf
+
+R-network-statistical test
+https://rpubs.com/cjsegneri/project4
+https://scholar.google.co.uk/citations?hl=en&user=-VGAs1cAAAAJ&view_op=list_works
+
+R-tips
+Empty list, matrix, dataframe or any empty data class is always a good starting
+point to store or construct something. 
