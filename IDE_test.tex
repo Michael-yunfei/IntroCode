@@ -1,0 +1,156 @@
+% This is the test file for LaTeX
+
+\documentclass[12pt]{article}
+
+% add some essential packages, some might not be used
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{natbib}
+\usepackage{authblk}
+\usepackage{ragged2e}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in,bottom=1.0in]{geometry}
+\usepackage{url}
+\usepackage{array}
+\usepackage{bbding}
+\usepackage{amssymb}
+\usepackage{graphicx}  % mini page function
+\usepackage{adjustbox}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{appendix} % appendix package
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage[english]{babel}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{textgreek}
+\usepackage{soul}  % package for highlighting
+\usepackage{listings}
+\usepackage{wasysym}
+\usepackage{amsthm}
+\usepackage{framed}
+\usepackage{bm}
+\usepackage{booktabs}  % package for table line
+
+
+\usepackage{rotating} % for the horizontal page table
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{matrix}
+\usetikzlibrary{positioning}
+\usepackage{color}
+\usepackage{setspace}
+\usepackage{xcolor}  % shaded text with defined color
+
+\usepackage{tcolorbox} % package for making colorful box
+
+ \setlength{\parskip}{0.15cm} % change the paragraph spacing
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$} % set the bullet size as tiny
+
+% \newcommand*\rot{\rotatebox{90}} % for rotate text
+
+\usepackage{sectsty} %package for section size
+
+\sectionfont{\fontsize{14}{12}\selectfont} % Change the section font size
+
+\subsectionfont{\fontsize{13}{12}\selectfont}
+\subsubsectionfont{\fontsize{12}{12}\selectfont}
+
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}} % new command
+
+
+
+\theoremstyle{definition}
+\newtheorem{definition}[subsubsection]{Definition}
+\newtheorem{axiom}[subsection]{Axiom}
+\newtheorem{example}[subsubsection]{Example}
+\newtheorem{theorem}[subsubsection]{Theorem}
+\newtheorem{proposition}[subsubsection]{Proposition}
+
+\usepackage{courier}
+
+% tikzsetting
+
+\usetikzlibrary{shapes,decorations,arrows,calc,arrows.meta,fit,positioning}
+
+\tikzset{
+    -Latex, auto, node distance =1 cm and 1 cm, semithick,
+    state/.style ={ellipse, draw, minimum width = 0.7 cm},
+    point/.style = {circle, draw, inner sep=0.04cm, fill, node contents={}},
+    bidirected/.style={Latex-Latex,dashed},
+    el/.style = {inner sep=2pt, align=left, sloped}
+}
+
+
+% Define colors
+\definecolor{cmd}{HTML}{F7F7F9}
+
+\begin{document}
+
+\title{Build up Latex in Atom: packages and tips }
+\author{Michael}
+\date{April, 2019}
+
+
+\maketitle  % always use \maketitle in the end
+
+
+\section{Introduction}
+
+At the very beginning, it takes me a while to build up the collective IDE for \texttt{Python, R , LaTex} in Atom. This document records the procedure to do this. I will collect the common problems any one might encounter when using Atom to write a paper or do a project with \texttt{Python, R} and \texttt{LaTex}.
+
+
+\section{Packages for LaTex in Atom}
+
+To build up IDE for LaTex in Atom, you need the following packages:
+\begin{itemize}
+  \item \texttt{atom-latex}: type LaTex code and compile in Atom
+  \item \texttt{language-latex}: syntax highlighting
+  \item \texttt{latex-autcomplete}: LaTex code autocomplete
+  \item \texttt{linter-spell-lates}: spell checking
+  \item \texttt{pdf-view}: view pdf in Atom
+\end{itemize}
+
+\section{Tips for LaTex in Atom}
+
+During setting up my LaTex environment in Atom, I had several main problems which annoyed me. The fist one is the spell-check does not work at the very beginning. To solve this problem, you need add the source file into the \texttt{Grammars} of \texttt{spell-check} package. To check your source file, follow those steps:
+\begin{enumerate}
+  \item use \colorbox{cmd}{\texttt{command-shift-p}} to open the command window
+  \item Then type \colorbox{cmd}{\texttt{Editor:Log Cursor Scope}} there, your file source will show up
+  \item Copy the source format, such as \colorbox{cmd}{\texttt{text.tex.latex}}, paste it into \colorbox{cmd}{\texttt{Grammars}}
+\end{enumerate}
+
+\textbf{Warning}: in order to make sure the spell-check works, you need make sure the file grammar you are using is `LaTex'. Otherwise, the spell-check will not work.
+
+To make the compiling clean and organized, you also need set the deleing file behaviors in preference part. 
+
+\section{Tips for Python in Atom}
+
+
+\section{Tips for R in Atom }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
