@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Geek Stuff}{4}{0}{2}
+\beamer@sectionintoc {3}{Productivity Tools}{6}{0}{3}
+\beamer@sectionintoc {4}{IDE}{11}{0}{4}
+\beamer@sectionintoc {5}{Which Language Should I pick up?}{14}{0}{5}
+\beamer@sectionintoc {6}{Reference}{16}{0}{6}

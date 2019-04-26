@@ -1,7 +1,4 @@
-% This is the test file for LaTeX
-
 \documentclass[12pt]{article}
-
 % add some essential packages, some might not be used
 
 \usepackage[T1]{fontenc}
@@ -28,7 +25,7 @@
 \usepackage{adjustbox}
 \usepackage{enumitem}
 \usepackage{textgreek}
-\usepackage{soul}  % package for highlighting
+
 \usepackage{listings}
 \usepackage{wasysym}
 \usepackage{amsthm}
@@ -45,7 +42,7 @@
 \usetikzlibrary{positioning}
 \usepackage{color}
 \usepackage{setspace}
-\usepackage{xcolor}  % shaded text with defined color
+\usepackage{xcolor}
 
 \usepackage{tcolorbox} % package for making colorful box
 
@@ -79,13 +76,50 @@
 \usetikzlibrary{shapes,decorations,arrows,calc,arrows.meta,fit,positioning}
 
 \tikzset{
-    -Latex, auto, node distance =1 cm and 1 cm, semithick,
+    -Latex,auto,node distance =1 cm and 1 cm,semithick,
     state/.style ={ellipse, draw, minimum width = 0.7 cm},
-    point/.style = {circle, draw, inner sep=0.04cm, fill, node contents={}},
+    point/.style = {circle, draw, inner sep=0.04cm,fill,node contents={}},
     bidirected/.style={Latex-Latex,dashed},
     el/.style = {inner sep=2pt, align=left, sloped}
 }
 
+\lstset{language=Matlab}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,	                   % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=Matlab,                 % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
 
 % Define colors
 \definecolor{cmd}{HTML}{F7F7F9}
@@ -127,9 +161,35 @@ During setting up my LaTex environment in Atom, I had several main problems whic
 
 \textbf{Warning}: in order to make sure the spell-check works, you need make sure the file grammar you are using is `LaTex'. Otherwise, the spell-check will not work.
 
-To make the compiling clean and organized, you also need set the deleing file behaviors in preference part. 
+To make the compiling clean and organized, you also need set the deleting file behaviors in preference part.
+
+If you put repeated bib entry in your BiBtext file, there will be a compiling error.
+
+Error: Paragraph ended before \textbackslash BR@@bibitem was complete.\textbackslash par
+
+Solution: put \textbackslash in front of \% in your url links
+
+Error: latex error code 12
+
+Solution: bibliographystyle should use apalike or something
+
+If you use different typing system, for example, in my case I used Chinese typing system to type some english words, then you will have the following errors:
+\textit{Package inputenc Error: Unicode character} H (U+8).
+
+\textbf{Special characters}: The following characters play a special role in LaTeX and are called ``special printing characters", or simply ``special characters":
+
+\# \$ \% \&  \_ \^ $\{  \}$ $\backslash$
+
+Whenever you put one of these special characters into your file, you are doing something special. If you simply want the character to be printed just as any other letter, include a $\backslash$ in front of the character. For example, $\backslash$ \$ will produce \$ in your output. The exception to the rule is the $\backslash$ itself because $\backslash \backslash$ has its own special meaning. A $\backslash$ is produced by typing $\backslash$ in your file.
+
+
+You can use $\backslash$phantom to hide some parts of latex
+
+
+\textbf{Always use apalike for bibliographystyle}
 
 \section{Tips for Python in Atom}
+
 
 
 \section{Tips for R in Atom }

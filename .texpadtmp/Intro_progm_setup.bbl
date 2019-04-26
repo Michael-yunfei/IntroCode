@@ -1,0 +1,14 @@
+\begin{thebibliography}{}
+
+\bibitem[Bixby, 2012]{bixby2012brief}
+Bixby, R.~E. (2012).
+\newblock A brief history of linear and mixed-integer programming computation.
+\newblock {\em Documenta Mathematica}, pages 107--121.
+
+\bibitem[Paarsch and Golyaev, 2016]{paarsch2016gentle}
+Paarsch, H.~J. and Golyaev, K. (2016).
+\newblock {\em A Gentle Introduction to Effective Computing in Quantitative
+  Research: What Every Research Assistant Should Know}.
+\newblock MIT Press.
+
+\end{thebibliography}

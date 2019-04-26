@@ -1,0 +1,78 @@
+At this stage, I will just organize my reading notes on this topic. Later, the summary on literature review will come.
+
+\subsection{Paper by \cite{bradley2003distribution}}
+
+\begin{itemize}
+  \item Research question: who gets what, when and how in complex postindustrial democracies?
+  \item Try to understand how different social strata get what share of income.
+  \item Use data on distributive outcomes to test central hypothesis of power resource theory against a number of rival hypothesis.
+  \item Motivation: there have been so few studies attempting to explain variation across advanced industrial societies in distributive outcomes and the redistribution process.
+  \item Data: Luxembourg Income Survey (LIS)
+\end{itemize}
+
+What is power resource theory? According to \cite{rothstein2012explaining}, power resource theory (PRT) is the theory aims to explain the variation in the size and coverage of welfare states by examining the working class mobilization. By PRT, political institutions are seen as simple arenas for conflict among social classes or as useful political tools for the parties involved in this struggle. In other words, within PRT, institutional factors have no independent explanatory power. To simply the `story`, we can state based on PRT: the more political resources the working class can muster, such as a strong and united union movement providing electoral support to Labour or Social Democratic parties, the more extensive, comprehensive, universal, and generous the welfare state will become.
+
+Incentives for workers to support redistribution system: take it as an insurance; social justice; and class-based self-interest.
+
+\textbf{Historical background}: follow the traditional Marxist position of seeing capital as a unique power resource, PRT argues that in the hypothetical absence of subordinate class organization, the asymmetric distribution of power resource in capitalist society results in state power being almost exclusively in the hands of capital owners, even in democracies. Then, organization in unions results in a shift of power in the market toward the union members. Organization in social democratic parties, often with the support of unions and allied parties of the left, results in shifts in political power that direct state policy toward more redistribution.
+
+Based on the above discourse, we can expect: pre-tax and transfer inequality is very strongly related to measures of union strength, while redistribution and post-tax and transfer inequality are very strongly related to the measures of party government.
+
+\textbf{Feature of globalization}: outflow of capital produces domestic lower labor income and transfer inequality. However, the social welfare is hard to be measured as consumer gain more surplus from cheaper goods made in developing countries, like China. Globalization increases the labor mobility. The immigrant population is typically bifurcated into low-skills and high-skills components.
+
+\textbf{Effect of education on inequality}: the relationship is complex as there is no direct association between educational and socioeconomic inequality, but the institutional setup of the education system does affect the distribution of income and wealth, as well as labor-market risks \citep{busemeyer2014skills}.
+
+\textbf{Regression Structure}
+\begin{itemize}
+  \item Dependent Variable: pre-tax and transfer inequality; reduction in equality
+  \item Independent Variable: Leftist cabinet; Chiristian democratic cabinet; Welfare generosity; union density; bargaining centralization; wage dispersion; GDP per capita; education; vocational education; industrial employment; unemployment; net migration.
+\end{itemize}
+
+\subsection{Paper by \cite{huber2017power}}
+
+\begin{itemize}
+  \item Research question: explain the political phenomena of top 1\% of income.
+  \item Motivation: explain the cross-nation variation in the rise in top incomes
+  \item Data: World Top Incomes Database
+\end{itemize}
+
+
+Power Resource Theory (PRT) again: accordingly, strong and centralized unions constitute a check on the rise of the 1\% share. In contrast, center-right governments pass policies that support income concentration at the top, such as low marginal tax rates. Union density and union bargaining centralization, along with partisan composition of government and policies such as marginal tax rates are the crucial determinants of the top 1\% share.
+
+\textbf{Important factors}:
+\begin{enumerate}
+  \item Union: union gives implicit regulation; union gives resource constraints; union gives organizational constraint;
+  \item Policy: tax policy
+  \item Economic determinants: market, trade, economic scale
+  \item Technology
+\end{enumerate}
+
+\textbf{Measurement}: how to measure the variable we are interested on.
+
+
+\textbf{Regression Structure}
+\begin{itemize}
+  \item Dependent Variable: top 1\% income shares
+  \item Independent Variable: Veto points; union density; top marginal tax rates; social security transfers; education spending; financial sector size, etc,.
+\end{itemize}
+
+\subsection{Paper by \cite{rueda2008left}}
+
+\textbf{Introduction}: wage inequality has increased dramatically in the US over the last three decades. It has increased in most other OECD countries as well, but the extend of this phenomenon varies a great deal.
+
+\begin{itemize}
+  \item Research question: to understand the relationship between government partisanship and inequality requires doing two things: separating the effects of government partisanship and policy on the economy; and assessing the influence of political agency once the mediating role of institutions is accounted for.
+  \item Aim: focus on the effects of the relationship between political agency and institutions on the lower half of the earnings distribution.
+\end{itemize}
+
+\textbf{The puzzle}: government partisanship and inequality at the lower half of the wage distribution. On one hand, the policy preferences of left parties raise the wage floor for competition in the labour market. However, the results show that government partisanship does not significantly influence inequality at the lower half of the wage.
+
+\textbf{The argument}: separating the effects of partisanship from those of policy and assessing the role of institutions. First, there exists an association between the partisan nature of governments and levels of inequality. Governments, however, cannot transform the wage distribution directly but must rely on the design and implementation of policy to accomplish any degree of redistribution. Second, the effects of government partisanship on policy and the effects of policy on economic outcomes are contingent on institutions.
+
+\textbf{Policies}: minimum wages, the generosity of the welfare state, and public employment
+
+\textbf{Regression Structure}
+\begin{itemize}
+  \item Dependent Variable: Inequality
+  \item Independent Variable: government partisanship; corporatism; welfare state generosity; government employment; minimum wages;
+\end{itemize}
